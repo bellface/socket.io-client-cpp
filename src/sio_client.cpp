@@ -6,7 +6,7 @@
 
 #include "sio_client.h"
 #include "internal/sio_client_impl.h"
-
+#include <sstream>
 using namespace websocketpp;
 using boost::posix_time::milliseconds;
 using std::stringstream;
