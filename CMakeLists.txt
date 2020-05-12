@@ -16,6 +16,10 @@ MESSAGE(SEND_ERROR "CMAKE_BUILD_TYPE must be either Release or Debug")
 return()
 endif()
 
+if(${CMAKE_BUILD_TYPE} STREQUAL "Debug" )
+set(CMAKE_CXX_FLAGS "-Wa,-mbig-obj" )
+endif()
+
 set(BOOST_VER "1.55.0" CACHE STRING "boost version" )
 
 set(Boost_USE_MULTITHREADED ON) 

@@ -11,6 +11,7 @@
 #include <cassert>
 #include <boost/lexical_cast.hpp>
 
+#include <sstream>
 #define kBIN_PLACE_HOLDER "_placeholder"
 
 namespace sio
