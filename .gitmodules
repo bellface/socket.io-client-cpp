@@ -1,6 +1,7 @@
 [submodule "lib/websocketpp"]
 	path = lib/websocketpp
 	url = https://github.com/bellface/websocketpp.git
+	branch = support-boost-1.7
 [submodule "lib/rapidjson"]
 	path = lib/rapidjson
 	url = https://github.com/miloyip/rapidjson.git
